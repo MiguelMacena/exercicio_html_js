@@ -1,0 +1,212 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    
+
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance: textfield; 
+}
+
+.tenor-sans-regular {
+    font-family: "Tenor Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.tauri-regular {
+    font-family: "Tauri", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+
+    background: rgb(0,0,0);
+    background: linear-gradient(84deg, rgba(0,0,0,1) 0%, rgba(29,29,29,1) 15%, rgba(43,43,43,1) 41%, rgba(60,60,60,1) 68%, rgba(51,50,50,1) 100%);
+
+}
+
+.nav-bar {
+
+    padding: 0.5%;
+    margin: 0%;
+    
+
+}
+
+.nav-bar ul {
+
+    margin: 0% 0%;
+    width: 35%;
+
+}
+
+.nav-bar li {
+    
+    display:inline;
+    
+}
+
+
+.header-logo img  {
+
+    width: 40%;
+
+}
+
+.h1-form{
+
+    font-family: "Tenor Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: whitesmoke;
+    font-size: 500%;
+    padding: 5% 0% 5% 0%;
+
+}
+
+.label-form {
+
+    font-family: "Tauri", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: whitesmoke;
+    font-size: 250%;
+    padding: 2% 0% 0% 8%;
+
+}
+
+.p-resultado {
+
+    font-family: "Tauri", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: whitesmoke;
+
+}
+
+
+.soma, .diferenca, .resultado {
+
+    width: 90%;
+    margin: 5.5%;
+    color: white;
+    font-size: 150%;
+
+}
+
+.compra-form {
+
+    color: #ECC94D;
+
+}
+
+.saldo-form {
+
+    color: #BEF5C7;
+}
+
+.container-form {
+
+    padding: 5%;
+    width: 50%;
+
+}
+
+.p-form {
+
+    color: whitesmoke;
+    font-size: 1.5rem;
+    padding: 1% 0% 0% 7%;
+    position: absolute;
+
+}
+
+.input-form {
+
+    padding: 1% 12% 1% 12%;
+    border-radius: 5%;
+    margin: 2% 22%;
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+
+}
+
+.calcular-form {
+
+    font-family: "Tenor Sans", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+    padding: 2% 8% 2% 8%;
+    margin: 2% 35%;
+    font-size: large;
+    border-radius: 20%;
+    color: black;
+    background-color: #4BD057;
+    
+
+}
+
+.p-resultado-positivo, .p-diferenca-positivo {
+
+    color: #BEF5C7;
+    font-family: "Tauri", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+.p-resultado-negativo, .p-diferenca-negativo{
+
+    color: rgba(160, 64, 64, 0.993);
+    font-family: "Tauri", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.p-resultado-nulo, .p-diferenca-nulo {
+
+    color: #b39a3f;
+    font-family: "Tauri", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+.container-img {
+
+width: 100%;
+
+}
+
+
+.container-img img {
+
+    width: 40%;
+    margin-top: -50%;
+    margin-left: 50%;
+
+}
+
+.rodape {
+
+    width: 100% 20%;
+    background-color:whitesmoke;
+    font-family: "Tenor Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: large;
+}
+

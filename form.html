@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario A </title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tauri&family=Tenor+Sans&display=swap" rel="stylesheet">
+
+</head>
+<body>
+        
+    <section>
+        <header>
+            <div class="nav-bar">
+                <ul>
+                    <li class="header-logo"> <img src="img/logo.svg"> </li>
+                </ul>
+            </div>
+        </header> 
+            <div class="container-form">
+                <form id="calcula-divida">
+                    <h1 class="h1-form"> Calculador de Dívida</h1>
+                    <label class="label-form"> Digite o valor da <b class="compra-form">compra</b> desejada</label><br>
+                    <p class="p-form">R$</p><input type="number" class="input-form" id="compra" required> <br>
+                    <label class="label-form"> Digite o valor do <b class="saldo-form">saldo</b> em conta</label> <br>
+                    <p class="p-form">R$</p><input type="number" class="input-form" id="saldo" name="saldo" required> <br>
+                    <button type="submit" class="calcular-form">calcular</button>
+                </form>
+
+                <div class="container-resultado">
+                    <p class="p-resultado-positivo"> </p>
+                    <br>
+                    <p class="p-resultado-negativo"> </p>
+                    <br>
+                    <p class="p-resultado-nulo"> </p>
+                    <br>
+                    <p class="p-diferenca-positivo"></p>
+                    <br>
+                    <p class="p-diferenca-negativo"></p>
+                    <br>
+                    <p class="p-diferenca-nulo"></p>
+                </div>
+            </div>
+            <div class="container-img">
+                <img src="img/moeda.svg">
+            </div>
+            <center>
+            <div class="rodape">
+                <footer>
+                    &copy; Porquinho da Economia - Todos os Direitos Reservados <br>
+                    Desenvolvido por Miguel Macena Santos
+                </footer>
+            </div>
+            </center>
+            <script src="medirNumero.js"></script> 
+    </section>   
+</body>
+</html>
